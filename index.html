@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveNow - Car Rental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">DriveNow.</h2>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <button class="nav-btn">Book Now</button>
+        </nav>
+    </header>
+
+   <section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Find Your Perfect Ride</h1>
+
+        <p>
+            Rent your dream car and explore
+            the world with comfort and style.
+        </p>
+
+        <button class="main-btn">
+            Explore Cars
+        </button>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="./images/car.jfif" alt="Luxury Car">
+    </div>
+
+</section>
+<!-- Available Cars Section -->
+
+<section class="cars-section">
+
+    <h2>Our Available Cars</h2>
+    <p class="section-subtitle">
+        Choose your favourite car and enjoy your journey.
+    </p>
+
+    <div class="car-container">
+
+        <!-- Car 1 -->
+        <div class="car-card">
+            <img src="images/car.jfif" alt="Luxury Car">
+            <h3>Luxury Sports Car</h3>
+            <p>₹5,000 / Day</p>
+            <button onclick="rentCar('Luxury Sports Car')">
+    Rent Now
+</button>
+        </div>
+
+        <!-- Car 2 -->
+        <div class="car-card">
+            <img src="images/car.jfif" alt="Premium Car">
+            <h3>Premium Car</h3>
+            <p>₹3,500 / Day</p>
+            <button onclick="rentCar('Premium Car')">
+    Rent Now
+</button>
+        </div>
+
+        <!-- Car 3 -->
+        <div class="car-card">
+            <img src="images/car.jfif" alt="Family Car">
+            <h3>Family Car</h3>
+            <p>₹2,500 / Day</p>
+            <button onclick="rentCar('Family Car')">
+    Rent Now
+</button>
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
